@@ -1,0 +1,59 @@
+
+/* Estilos para ocultar el icono de reproducción de ReactPlayer  , .react-player__shadow */
+.react-player__play-icon  {
+    display: none !important; /* !important asegura que este estilo tenga prioridad */
+}
+
+
+.videosList {
+    width: 100%; /* perate  */
+    box-sizing: border-box;
+    display: flex;
+
+    margin: auto;
+
+	align-items: center;
+    justify-content: space-evenly; /* perate */
+    flex-wrap: wrap;
+}
+/*Checkar  */
+.card {
+	display: flex;
+
+	gap: 15px;
+
+	border: 1px solid #eee;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+    width: 430px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+    gap: 4px;
+    flex-direction: column ;
+
+
+}
+
+.card.active {
+	background-color: #ffcc00;
+}
+.card.active .card-title {
+	color: #fff;
+}
+
+.card-title {
+	font-size: 17px;
+	color: #444;
+}
+
+.block-1 {
+    width: 300px;
+}
+
+.block-2 {
+    width: 300px;
+}

@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+* {
+	font-family: 'Poppins', sans-serif;
+
+	padding: 0px;
+
+
+}
+body {
+	background-color: #ffffff;
+	padding: 0px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.video-list-container {
+	background-color: #fff;
+	max-width: 1440px;
+	padding-top: 20px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+@media (max-width:1200px) {
+	.container {
+		margin: 0;
+	}
+	.video-list-container{
+		border: none !important;
+		padding: 15px !important;
+	}
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width:450px) {
+	.video-list-container{
+		border: none !important;
+		padding: 15px !important;
+	}
+	.main-vid-title {
+		font-size: 15px;
+		text-align: center;
+	}
+	.list {
+		flex-flow: column;
+		gap: 10px;
+	}
+	.list-video {
+		width: 100%;
+	}
+	.list-title {
+		font-size: 15px;
+		text-align: center;
+	}
 }

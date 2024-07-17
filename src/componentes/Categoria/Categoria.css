@@ -1,0 +1,47 @@
+.categoria{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.categoria-block-1{
+display: flex;
+
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.categoria h3{ 
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-size: 32px;
+}
+
+
+.categoria-block-2{
+    display: flex;
+    justify-content: center;
+    }
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+

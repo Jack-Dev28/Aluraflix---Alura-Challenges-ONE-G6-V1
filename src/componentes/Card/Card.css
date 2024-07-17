@@ -1,0 +1,63 @@
+.card {
+    width: 430px;
+    margin: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    gap: 4px;
+    flex-direction: column ;
+
+  }
+  
+  .encabezado {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .encabezado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .info {
+    padding: 20px;
+  }
+  
+  .info h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info h5 {
+    font-size: 16px;
+    color: #666;
+  }
+
+
+  .buttonsCard{
+    display: flex;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+  .eliminar-container {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    cursor: pointer; /* Añadido para indicar que es un elemento clickeable */
+  }
+  
+  .eliminar-icon {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+  }
+  
+  .eliminar-texto {
+    color: white;
+    font-size: 1.5rem; /* Tamaño de la fuente del texto "Borrar" */
+    line-height: 1; /* Ajustar la altura de línea para centrar verticalmente */
+  }
+  

@@ -1,0 +1,203 @@
+.edit-card-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .edit-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
+  .edit-card-content {
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .edit-card-content h2 {
+    margin-top: 0;
+  }
+  
+  .edit-card-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-card-content label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-card-content input, .edit-card-content textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .edit-card-content button[type="submit"] {
+ /*   background-color: #4CAF50; */
+    color: #fff;
+    padding: 10px 20px;
+  /*  border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-card-content button[type="button"] {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  /*/////////////////////////*/
+  /*/////////////////////////*/
+  /*/////////////////////////*/
+  /*/////////////////////////*/
+  /*/////////////////////////*/
+  /*/////////////////////////*/
+
+
+  .edit-card-content {
+    background-color: #181818; /* Dark grey background */
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 85vh;
+    text-align: center;
+    border: 2px solid #0080ff;
+  
+}
+
+.new-video-header {
+    margin-bottom: 20px;
+}
+
+.new-video-header h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #2271D1;
+}
+
+.new-video-header p {
+    font-size: 14px;
+}
+
+.new-video-form {
+    background-color: #282828; /* Slightly lighter grey for the form */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.new-video-form h3 {
+    margin-bottom: 15px;
+}
+
+.form-row-edit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-color: #0080ff;
+    font-size: 20px;
+    
+}
+
+.form-row-edit-card label {
+    width: 520px; /* Adjust width as needed */
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-row-edit-card input,
+.form-row-edit-card textarea,
+.form-row-edit-card select {
+    background-color: #383838; /* Slightly darker grey for input fields */
+    color: #A5A5A5;
+    border: 1px solid #0080ff; /* Subtle border */
+    padding: 8px;
+    border-radius: 5px;
+    width: calc(100%); /* Adjust width as needed */
+}
+
+.form-row-edit-card textarea {
+    height: 100px; /* Adjust height as needed */
+    resize: vertical; /* Allow resizing vertically */
+}
+
+.form-row-edit-card button {
+  /*  background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+
+    border: 2px solid #0080ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.form-row-edit-card-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row-edit-card button:hover {
+ /*   background-color: #45a049; /* Slightly darker green on hover */
+    border: 2px solid #0080ff;
+}
+
+.form-row-edit-card button:nth-child(2) {
+  /*  background-color: #f44336; /* Red button for "LIMPIAR" */
+  border-color: white;
+}
+
+.form-row-edit-card button:nth-child(2):hover {
+    background-color: #d32f2f; /* Slightly darker red on hover */
+}
+
+.edit-card-content .form-row-edit-card input.error {
+    border-color: red;
+}
+
+.edit-card-content .form-row-edit-card select.error {
+    border-color: red;
+}
+
+.edit-card-content .form-row-edit-card .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.edit-card-content .form-row-edit-card input.error::placeholder {
+    color: red;
+}

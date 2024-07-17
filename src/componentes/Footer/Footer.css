@@ -1,0 +1,19 @@
+.footer{
+    background-color: #181818;
+    color: #0080ff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #0080ff;
+}
+
+.img {
+    width: 120px;
+    height: auto;
+}
+
+
+
+
+

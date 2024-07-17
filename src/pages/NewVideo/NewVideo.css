@@ -1,0 +1,104 @@
+.new-video-container {
+    background-color: #181818; /* Dark grey background */
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 100vh;
+    text-align: center;
+}
+
+.new-video-header {
+    margin-bottom: 20px;
+}
+
+.new-video-header h2 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.new-video-header p {
+    font-size: 20px;
+}
+
+.new-video-form {
+    background-color: #181818; /* Slightly lighter grey for the form */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.new-video-form h3 {
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    width: 150px; /* Adjust width as needed */
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-row input,
+.form-row textarea,
+.form-row select {
+    background-color: #383838; /* Slightly darker grey for input fields */
+    color: white;
+    border: 1px solid #585858; /* Subtle border */
+    padding: 8px;
+    border-radius: 5px;
+    width: calc(100% - 165px); /* Adjust width as needed */
+}
+
+.form-row textarea {
+    height: 100px; /* Adjust height as needed */
+    resize: vertical; /* Allow resizing vertically */
+}
+
+.form-row button {
+  /*  background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+  /*  border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-row button:hover {
+  /*  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+.form-row button:nth-child(2) {
+  /*  background-color: #f44336; /* Red button for "LIMPIAR" */
+  border-color: white;
+}
+
+.form-row button:nth-child(2):hover {
+    background-color: #d32f2f; /* Slightly darker red on hover */
+}
+
+.new-video-container .form-row input.error {
+    border-color: red;
+}
+
+.new-video-container .form-row select.error {
+    border-color: red;
+}
+
+.new-video-container .form-row .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+.new-video-container .form-row input.error::placeholder {
+    color: red;
+}

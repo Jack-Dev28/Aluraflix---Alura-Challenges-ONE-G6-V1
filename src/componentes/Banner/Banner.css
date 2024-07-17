@@ -1,0 +1,101 @@
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  height: 823px;
+  background-image: url('/public/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+
+}
+
+/*Bloque 1 */
+.banner-block-1 {
+  color: white;
+  padding: 50px;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  flex: 1; /* Ocupa el espacio disponible */
+  
+
+}
+
+.banner-block-1 span {
+  background-color: #6BD1FF;
+  border-radius: 10px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.banner-block-1 h2 {
+  font-size: 46px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #F5F5F5;
+}
+
+.banner-block-1 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #F5F5F5;
+}
+
+/*Bloque 2 */
+.banner-block-2 {
+
+    justify-content: center;
+    width: 50%;
+    min-width: 450px;
+    padding: 20px;
+    height: 380px  ; /* Agrega una altura específica al contenedor */
+    flex: 1; /* Ocupa el espacio disponible */
+    display: flex; /* Utiliza flexbox para el contenido interno */
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Alinea los elementos al estiramiento vertical */
+    /* overflow: hidden; /* hide any overflow content */
+
+}
+
+.main-video-container {
+  /* Make the container adapt to its parent's size */
+  max-width: 70%;
+  max-height: 100%;
+  /* Center the video horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: white; 
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.main-video {
+  /* Make the video adapt to its parent's size */
+  width: 100%;
+  height: 80%;
+  /* object-fit: cover; /* scale the video to cover the entire container / con esto activado haces que el video se adapte al contenedor del video - mejor es que lo actives y desactives para que veas que haces */
+}
+
+.main-vid-title {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/*
+.react-player__shadowreact-player__play-icon{
+  
+
+}
+
+*/
